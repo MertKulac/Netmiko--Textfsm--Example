@@ -19,4 +19,4 @@ for key,value in results.items():
         for key1,value1 in value.items():
                 for key2,value2 in value1.items():
                         if value2 == "up":
-                                print(key1)
+                                print(f"{key1} interfaces are in up state.")
