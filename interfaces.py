@@ -1,9 +1,9 @@
 from netmiko import Netmiko
 from pyats_parser import parser
 
-con = Netmiko(host = '92.44.0.22',
-              username = 'NPESCRIPT',
-              password = 'RYXga421',
+con = Netmiko(host = '192.168.10.1',
+              username = 'username',
+              password = 'password',
               port = 22,
               device_type = 'cisco_xr',
               timeout = 160,
